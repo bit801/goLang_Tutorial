@@ -1,0 +1,6 @@
+package main
+import "fmt"
+func main() {
+	//stings in goLang can be added together with +
+	fmt.Println("go" + "lang!!")
+}
