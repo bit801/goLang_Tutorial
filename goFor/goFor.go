@@ -27,4 +27,16 @@ func main() {
 	}
 	fmt.Println() //print blank line to screen
 
+	//you can also continue to the next iteration of the loop
+	for n := 0; n <= 5; n++ {
+		if n%2 == 0 { //if index is even and less or equal to 5
+			fmt.Println("Inside of for-loop at iteration: ") //continue to next iteration inside loop
+			fmt.Println(n)
+			fmt.Println()
+			continue
+		}
+		fmt.Println("Outside of for-loop at iteration: ")
+		fmt.Println(n)
+		fmt.Println()
+	}
 }
