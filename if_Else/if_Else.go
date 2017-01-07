@@ -9,6 +9,7 @@ func main() {
 
 	fmt.Println()
 
+	//basic if/else branch
 	if 7%2 == 0 { //if 7 can be divided by 2 with no remainder
 		fmt.Println("7 is even.") //7 is even
 	} else {
@@ -16,6 +17,8 @@ func main() {
 		//means 7 is odd
 	}
 
+	//a statement can precede conditionals; any variables
+	//declared in this statement are available in all branches
 	if 8%4 == 0 { //if 8 can be divided by 4 with no remainder
 		fmt.Println("8 is divisible by 4.") //then 8 8 is divisible by 4
 	}
@@ -29,6 +32,8 @@ func main() {
 	} else {
 		fmt.Println(num, " has multiple digits.")
 	}
+	//note that you don't need parentheses around conditions in
+	//Go, but that the braces are required
 
 	fmt.Println()
 }
