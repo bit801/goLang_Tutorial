@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 
-	//this is a basic switch
+	//This is a basic switch
 	i := 1
 	fmt.Print("Write ", i, " as ")
 	switch i {
@@ -18,3 +18,7 @@ func main() {
 		fmt.Println("three")
 	}
 }
+
+//You can use commas to separate multiple expressions in
+//the same case statement. We use the optional 'default'
+//case in this example as well
