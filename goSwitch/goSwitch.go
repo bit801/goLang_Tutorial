@@ -6,7 +6,7 @@ import "fmt"
 
 func main() {
 
-	1 := 2
+	i := 2
 	fmt.Print("Write ", i, " as ")
 	switch i {
 	case 1:
