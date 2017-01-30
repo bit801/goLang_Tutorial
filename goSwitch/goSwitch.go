@@ -51,11 +51,13 @@ func main() {
 		case int:
 			fmt.Println("I'm an int")
 		default:
-			fmt.Println("Don't know the type %Tn", t)
+			fmt.Println("Don't know the type %T\n", t)
 		}
 	}
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("hey")
+
+	//Note that arrays appear in the form [v1 v2 v3 ...] when printed with fmt.Println.
 
 }
